@@ -31,43 +31,28 @@ const Footer = () => {
                             </span>
                             <Nav className="flex-column">
                                 <NavItem>
-                                    <NavLink href="#pablo"
-                                        onClick={
-                                            e => e.preventDefault()
-                                    }>
+                                    <NavLink href="/#/">
                                         Inicio
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="#pablo"
-                                        onClick={
-                                            e => e.preventDefault()
-                                    }>
+                                    <NavLink href="/#/product">
                                         Sobre Beegilant
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="#pablo"
-                                        onClick={
-                                            e => e.preventDefault()
-                                    }>
+                                    <NavLink href="/#/motivation">
                                         Nuestra Motivación
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="#pablo"
-                                        onClick={
-                                            e => e.preventDefault()
-                                    }>
+                                    <NavLink href="/#/team">
                                         Nuestro Equipo
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="#pablo"
-                                        onClick={
-                                            e => e.preventDefault()
-                                    }>
-                                        Contacto
+                                    <NavLink href="/#/meet">
+                                        Juntémonos
                                     </NavLink>
                                 </NavItem>
                             </Nav>
@@ -121,17 +106,14 @@ const Footer = () => {
                                 new Date().getFullYear()
                             }
                                 {" "}
-                                <a href="https://www.creative-tim.com?ref=adsr-footer" target="_blank">
-                                    Kibosoft
-                                </a>
-                                .
+                                    Kibosoft.
                             </div>
                         </Col>
                         <Col md="6">
                             <Nav className=" nav-footer justify-content-end align-items-center">
                                 Con el apoyo de:
                                 <NavItem>
-                                    <NavLink href="https://feriadesoftware.cl/" target="_blank">
+                                    <NavLink href="http://www.feriadesoftware.cl/" target="_blank">
                                         Feria de Software
                                     </NavLink>
                                 </NavItem>

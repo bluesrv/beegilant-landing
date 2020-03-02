@@ -15,9 +15,9 @@ import {
 
 const Navigator = () => {
     return (
-        <Navbar className="navbar-horizontal navbar-dark bg-default" expand="lg" sticky="top">
+        <Navbar className="navbar-horizontal navbar-dark bg-beegilant" expand="lg" sticky="top">
             <Container>
-                <NavbarBrand href="/">
+                <NavbarBrand href="/#/">
                     <img alt="Beegilant"
                         src={
                             require('../assets/img/beegilant/beegilant.png')
@@ -37,7 +37,7 @@ const Navigator = () => {
                     <div className="navbar-collapse-header">
                         <Row>
                             <Col className="collapse-brand" xs="6">
-                                <Link to="/">
+                                <Link to="/#/">
                                     <img alt="Beegilant"
                                         src={
                                             require('../assets/img/beegilant/beegilant.png')
@@ -61,27 +61,27 @@ const Navigator = () => {
                     </div>
                     <Nav className="ml-lg-auto" navbar>
                         <NavItem>
-                            <NavLink href="/">
+                            <NavLink href="/#/">
                                 Inicio
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/product">
+                            <NavLink href="/#/product">
                                 Nuestro Producto
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/motivation">
+                            <NavLink href="/#/motivation">
                                 Nuestra Motivación
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/team">
+                            <NavLink href="/#/team">
                                 Nuestro Equipo
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/meet">
+                            <NavLink href="/#/meet">
                                 Juntémonos
                             </NavLink>
                         </NavItem>
